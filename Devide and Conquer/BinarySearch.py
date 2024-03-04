@@ -7,7 +7,7 @@ left = int(0)
 right = Length - 1
 element = int(input('Nhập số cần tìm kiếm: '))
 
-def BinarySearch(left, right, element):
+def BinarySearch(left:int, right:int, element:int):
     center = int((right + left)/2)
     if left > right: return False
     print(f'Left = {left}, Right = {right}, Center = {center}')
