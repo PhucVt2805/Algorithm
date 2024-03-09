@@ -10,5 +10,6 @@ def Try(i = 1):
             count = count + 1
         else:
             Try(i + 1)
-Try()
+if __name__ == '__main__':
+    Try()
 

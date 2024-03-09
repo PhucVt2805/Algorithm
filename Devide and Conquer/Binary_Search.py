@@ -18,4 +18,5 @@ def BinarySearch(left:int, right:int, element:int):
     else:
         return BinarySearch(left, center, element)
 
-print(BinarySearch(left, right, element))
+if __name__ == '__main__':    
+    print(BinarySearch(left, right, element))

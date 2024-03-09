@@ -9,4 +9,5 @@ def Try(i = 1):
             print(X)
         else:
             Try(i+1)
-Try()
+if __name__ == '__main__':
+    Try()

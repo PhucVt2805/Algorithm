@@ -25,5 +25,6 @@ def QuickSort(array, left, right):
         QuickSort(array, left, p - 1)
         QuickSort(array, p + 1, right)
 
-QuickSort(arr, 0, len(arr) - 1)
-print(arr)
+if __name__ == '__main__':
+    QuickSort(arr, 0, len(arr) - 1)
+    print(arr)

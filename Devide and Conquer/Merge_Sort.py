@@ -36,5 +36,6 @@ def Merge(array, left, mid, right, TempArr):
         j += 1
         k += 1
 
-MergeSort(arr, 0, Length - 1, TempArr)
-print(arr)
+if __name__ == '__main__':
+    MergeSort(arr, 0, Length - 1, TempArr)
+    print(arr)
